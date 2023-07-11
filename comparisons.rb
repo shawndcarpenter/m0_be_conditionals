@@ -18,30 +18,38 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# puts "Is number_teachers greater than number_students?" 
+# number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
 
+number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
 
+number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
 
+number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
 
+number_teachers >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
 
+number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
 
+number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
 
+number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
